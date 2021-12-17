@@ -531,6 +531,9 @@ font-family: 'David Libre', serif;
 
 .articulo:hover {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    background: #fcfcfc;
+    width: 315px;
+    transition: 0.5s;
 }
 
 .articulo>i {

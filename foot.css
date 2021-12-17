@@ -8,6 +8,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
+    margin-bottom: 2%;
 }
 
 .partFooter {
