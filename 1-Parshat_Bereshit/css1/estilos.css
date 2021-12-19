@@ -201,16 +201,17 @@ nav {
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
-    background: #0AE8FF;
+    background: #9ba0a1;
     text-align: center;
     color: #fff;
+    font-family: 'Noto Sans Hebrew', sans-serif;
     padding: 12px 0;
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgb(0 0 0 / 46%);
 }
 
 .titulo {
@@ -832,17 +833,25 @@ footer {
         justify-content: space-evenly;
         height: 720px;
     }
-
+h1T {
+    font-size: 40px;
+    color:#000;
+    font-family: 'Acme', sans-serif;
+}
     .contenido-header>img {
         width: 400px;
     }
 
     .textos-header {
+        display: flex;
         margin: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: baseline;
     }
 
     /* About us */
-
     .articulo {
         width: 45%;
     }

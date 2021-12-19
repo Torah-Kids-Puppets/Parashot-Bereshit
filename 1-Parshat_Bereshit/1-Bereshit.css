@@ -52,8 +52,8 @@ header{
 }
 
 .cards .card{
-  width: 45%;
-  height: 45%;
+  width: 65%;
+  height: 55%;
    padding: 10px 10px 15px 15px;
   display:flex;
   justify-content: center;
