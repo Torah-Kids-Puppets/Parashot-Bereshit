@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+Hebrew&family=Secular+One&family=Suez+One&display=swap');
+
 .about-usr {
     padding: 50px 0px 0px 0px;
   align-items: center;
@@ -57,16 +59,18 @@
 
 .contenedor-alia .service{
     margin-bottom: 20px;
-    width: 100%
 }
 
 .contenedor-servicio{
-  padding: 20px 0px;
+  padding: 0px 0px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: nowrap;
   align-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+  height: auto;
 }
 
 .contenedor-servicio img{
@@ -84,8 +88,12 @@
 }
 
 .checklist-serviciopar{
-    width: 95%;
+  padding: 0px 0px 15px 0px;
+    width: 65%;
+    text-align: left;
+    align-items: flex-start;
 }
+
 
 .service{
     margin-bottom: 20px;
@@ -160,6 +168,15 @@ position: inherit;
   color: #000;
 }
 
+.checklist-serviciopar .service .verse-number {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: bold;
+    display: inline;
+    padding: 0px 5px;
+    font-size: 28px;
+    color: #202327;
+}
+
 .checklist-serviciopar .service .text{
 position: inherit;
 }
@@ -177,6 +194,63 @@ position: inherit;
     border-radius: 50%;
     box-shadow: 0 8px 25px rgb(44 51 51 / 43%);
 }
+
+
+.contenedor-serviciohaf{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+}
+
+
+.checklist-serviciohaf{
+    width: 95%;
+}
+
+.checklist-serviciohaf .service p{
+  
+font-size: 20px;
+word-spacing: 0.2px;
+letter-spacing: 0.2px;
+line-height: 1.56;
+margin-bottom: 20px;
+font-family: 'Noto Sans Hebrew', sans-serif;
+color: #000;
+text-align: initial;
+}
+
+.checklist-serviciohaf .service .verse-number {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: bold;
+    display: inline;
+    padding: 0px 5px;
+    font-size: 23px;
+    color: #202327;
+}
+
+.checklist-serviciohaf .service .text{
+position: inherit;
+}
+
+.checklist-serviciohaf .service a i{
+    font-size: 20px;
+    color: #fff;
+    background: #00e3ff;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 5px;
+    border-radius: 50%;
+    box-shadow: 0 8px 25px rgb(44 51 51 / 43%);
+}
+
+
 
 .con2ts{
   padding: 20px 0px;
@@ -210,23 +284,27 @@ p{
   font-family: 'Noto Sans Hebrew', sans-serif;
 }
 .verse {
+  width: 45%;
   display: flex;
   position: static;
   display: inline;
   line-height: normal;
-  align-items: baseline;
+  align-items: flex-start;
   align-content: center;
-  text-align: left;
   font-family: 'Noto Sans Hebrew', sans-serif;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
+  text-align: right;
+    direction: rtl;
 }
 
 .verse .verse-text {
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-size: 28px;
     color: #202327;
+    text-align: right;
+    direction: rtl;
 }
 
 .verse .verse-text span.bold {
@@ -288,10 +366,146 @@ p{
      margin-bottom: 40px;
     }
     
+    .contenedor-servicio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
     .checklist-servicio{
         width: 99%;
     }
 
+
+.checklist-serviciopar{
+    width: 95%;
+}
+
+.service{
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.text{
+  display: flex;
+  width:100%;
+}
+
+.checklist-servicio .service p{
+  
+  font-size: 22px;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  color: #000;
+}
+
+.checklist-servicio .service p{
+  
+  font-size: 22px;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  color: #000;
+}
+
+.checklist-servicio .service .text{
+position: inherit;
+}
+
+.checklist-servicio .service a i{
+    font-size: 20px;
+    color: #fff;
+    background: #00e3ff;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 5px;
+    border-radius: 50%;
+    box-shadow: 0 8px 25px rgb(44 51 51 / 43%);
+}
+
+
+.checklist-serviciopar .service p{
+  
+  font-size: 22px;
+  word-spacing: 0.2px;
+  letter-spacing: 0.2px;
+  line-height: 1.56;
+  margin-bottom: 20px;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  color: #000;
+}
+
+.checklist-serviciopar .service p{
+  
+font-size: 20px;
+  
+word-spacing: 0.2px;
+  
+letter-spacing: 0.2px;
+  
+line-height: 1.56;
+  
+margin-bottom: 20px;
+  
+font-family: 'Noto Sans Hebrew', sans-serif;
+  
+color: #000;
+}
+
+.checklist-serviciopar .service .verse-number {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: bold;
+    display: inline;
+    padding: 0px 5px;
+    font-size: 25px;
+    color: #202327;
+}
+
+.checklist-serviciopar .service .text{
+position: inherit;
+}
+
+.checklist-serviciopar .service a i{
+    font-size: 20px;
+    color: #fff;
+    background: #00e3ff;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 5px;
+    border-radius: 50%;
+    box-shadow: 0 8px 25px rgb(44 51 51 / 43%);
+}
+
+.verse {
+     width: 60%;
+}
+
+.verse .verse-text {
+     font-size: 22px;
+     width: 45%;
+}
+
+.verse .verse-text span.bold{
+     font-size: 24px;
+}
+
+.verse .verse-number{
+     font-size: 26px;
+}
     .servp{
         width: 80%;
     }
@@ -393,11 +607,14 @@ p{
         margin-bottom: 40px;
     }
     .verse {
-      display: none;
+      width: 35%;
     }
 
+.checklist-serviciopar{
+    width: 58%;
+}
         .contenedor-alia{
-  width: 25%;
+  width: 30%;
   height: -86px;
   left: -25px;
   transform: rotate(-91deg);
@@ -426,5 +643,52 @@ p{
     font-weight: 700;
     float: left;
 }
+
+
+.checklist-serviciohaf .service p {
+    font-size: 18px;
 }
+
+.contenedor-serviciohaf .checklist-serviciohaf .service p {
+    font-size: 2.7vh;
+    margin-bottom: 10px;
+}
+
+.contenedor-serviciohaf .checklist-serviciohaf .service p .verse-number {
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 600px){
+  .contenedor-alia {
+    padding: 20px 0px;
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    float: left;
+    position: absolute;
+    left: -20px;
+    transform: rotate(-91deg);
+} 
+}
+
+
+@media screen and (max-width: 400px){
+  .contenedor-alia {
+    padding: 20px 0px;
+    display: flex;
+    width: 25%;
+    height: -66px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    float: left;
+    position: absolute;
+    left: -25px;
+    transform: rotate(-91deg);
+} 
 }

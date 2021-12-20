@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+Hebrew&family=Secular+One&family=Suez+One&display=swap');
 
 ::-webkit-scrollbar {
    width: 15px;
@@ -501,7 +502,7 @@ font-family: 'David Libre', serif;
 .articulopat {
     display: flex;
     width: 30%;
-    height: inherit;
+    height: auto;
     background: #fff;
     margin-bottom: 30px;
     margin-right: 1px;
@@ -519,6 +520,7 @@ font-family: 'David Libre', serif;
 
 .articulopat .content{
     width: 65%;
+    height: 174px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -559,6 +561,7 @@ font-family: 'David Libre', serif;
     color: #5D6678;
     margin-top: 2px;
     margin-bottom: 5px;
+    height: 150px;
 }
 
 .articulopat .content>a {
@@ -641,6 +644,17 @@ font-family: 'David Libre', serif;
   margin: auto;
 }
 
+.lecturapar hhs{
+  color: #1d273b;
+  font-weight: 300;
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
+
 .lecturapar h2 {
     font-size: 40px;
     font-weight: 500;
@@ -653,6 +667,23 @@ font-family: 'David Libre', serif;
     text-align:center;
     font-family: 'Noto Sans Hebrew';
 }
+
+.lecturapar .hinfo {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    text-align:center;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.lecturapar hinfo {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    text-align:center;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
 
 /* Results */
 
@@ -968,6 +999,48 @@ h1T {
         align-content: center;
     }
 
+    .lecturapar h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lecturapar h2he{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lecturapar hps {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.lecturapar hhs {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.lecturapar hinfo {
+    font-size: 17px;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.checklist-serviciohaf .service p {
+    font-size: 18px;
+}
+
+.contenedor-serviciohaf .checklist-serviciohaf .service p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contenedor-serviciohaf .checklist-serviciohaf .service p .verse-number {
+    font-size: 20px;
+}
+
     /* About us */
     .articulo {
         width: 45%;
@@ -979,6 +1052,7 @@ h1T {
 
     .articulopat {
         width: 40%;
+        height: auto;
     }
 
     .articulopat:hover{
@@ -1119,8 +1193,18 @@ h1T {
         width: 70%;
     }
 
+.articulopat .content {
+    height: 140px;
+}
+
     .articulopat:hover{
     width: 75%;
+    }
+
+    .lecturapar hinfo {
+    font-size: 16px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
 
     /* Questions */
 

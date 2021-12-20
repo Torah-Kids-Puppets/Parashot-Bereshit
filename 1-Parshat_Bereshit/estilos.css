@@ -637,6 +637,7 @@ text-decoration: none;
 .services {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .services>img {

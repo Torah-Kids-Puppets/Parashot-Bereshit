@@ -50,8 +50,9 @@ body{
     margin: auto;
     background-color: #fff;
     width: 90%;
-    max-width: 550px;
-    max-height: 85%;
+    height: 85%;
+    max-width: 1000px;
+    max-height: 70%;
     text-align: center;
     padding: 2.7em 1.75em;
     border-radius: 1em;
@@ -89,11 +90,13 @@ body{
 ha{
     font-family: 'Palanquin Dark', sans-serif;
     color: #000;
+    text-align: left;
 }
 
 .ha{
     font-family: 'Palanquin Dark', sans-serif;
     color: #000;
+    text-align: left;
 }
 
 
@@ -101,6 +104,7 @@ ha{
     margin-top: 1em;
     margin-bottom: 1em;
     line-height: 1.5;
+    text-align: left;
     font-family: 'Merriweather', serif;
 }
 
@@ -163,7 +167,7 @@ ha{
     width: 95%;
     max-width: 550px;
     max-height: 90%;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
     padding: 2.7em 1.5em;
     border-radius: 1em;
@@ -194,8 +198,8 @@ ha{
     background-color: #fff;
     width: 90%;
     max-width: 550px;
-    max-height: 90%;
-    overflow: hidden;
+    max-height: 80%;
+    overflow: auto;
     text-align: center;
     padding: 2.7em 1.5em;
     border-radius: 1em;
@@ -215,12 +219,11 @@ ha{
         font-size: 1.5rem;
     }
     
-    .modal_container{
+      .modal_container{
     margin: auto;
     background-color: #fff;
-    width: 75%;
     max-width: 550px;
-    max-height: 65%;
+    max-height: 70%;
     overflow: auto;
     text-align: center;
     padding: 2.7em 1.5em;

@@ -92,6 +92,11 @@ font-weight: 500;
     color:#ffffff;
 }
 
+.contenido-texto-card h1 he {
+    font-size: 45px;
+    line-height: 35px;
+    font-family: 'Suez One';
+}
 
 ::-webkit-scrollbar {
    width: 15px;
@@ -536,7 +541,6 @@ font-family: 'David Libre', serif;
   background: url(img/lec-2.png);
   background-position: center;
   background-size: cover;
-  margin-top: 5%;
 }
 
 /* About us */
@@ -1253,17 +1257,13 @@ font-weight: 300;
     width: 55%;
   }
 
-  .contenido-texto-card h1{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-size: 40px;
+.parashatlec .card .contenido-texto-card h1{
+    font-size: 30px;
     color:#ffffff;
 }
 
-.contenido-texto-card h1 he{
-    font-size: 25px;
+.parashatlec .card .contenido-texto-card h1 he {
+    font-size: 30px;
 }
 
 .cards .card > .contenido-texto-card p{
