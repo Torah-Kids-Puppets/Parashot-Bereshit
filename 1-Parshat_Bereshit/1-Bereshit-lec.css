@@ -152,6 +152,11 @@ h6 {
     overflow: hidden;
 }
 
+.contenhaf {
+    width: 98%;
+    padding: 0px 0px 0px 10px
+}
+
 .conteleria {
     padding: 60px 0;
     width: 90%;
@@ -794,6 +799,7 @@ text-decoration: none;
 .services {
     display: flex;
     justify-content: space-around;
+    margin-bottom: -2%;
 }
 
 .services>img {
