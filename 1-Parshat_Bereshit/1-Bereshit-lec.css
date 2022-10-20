@@ -1012,9 +1012,18 @@ footer {
     /* Services */
 
     .services {
+        padding: 0px;
         flex-direction: column-reverse;
         align-items: center;
     }
+
+  .contenedor{
+    padding: 0px;
+  }
+
+  .services contenedor{
+    padding: 0px;
+  }
 
     .box-skills {
         margin: 0 0 40px 0;
@@ -1128,6 +1137,9 @@ footer {
     .services>img {
         width: 200px;
     }
+  .services contenedor{
+    padding: 0px;
+  }
 
     .box-skills h4 {
         width: 100%;
@@ -1245,7 +1257,7 @@ font-weight: 300;
 
     .cards .card{
         width: 90%;
-        height: 40%;
+        height: auto;
         padding: 10px 10px 15px 15px;
         display: flex;
         flex-direction: column;
